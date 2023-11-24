@@ -1,0 +1,13 @@
+<div class = "form">
+  <div class = "words mb-2">Result:</div>
+    <div class = "words">
+      <table border = "1" class="table">
+        <% @result.each do |row| %>
+            <th>
+              <%= row %>
+            </th>
+        <% end %>
+       </table>
+      <%= link_to "Try again", :calc_input %>
+    </div>
+</div>

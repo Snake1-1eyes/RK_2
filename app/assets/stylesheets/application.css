@@ -1,0 +1,40 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ html{
+    background: url(https://wallbox.ru/wallpapers/main2/202238/nebo-gory-more-pesok.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    }
+    body {
+    background-color:unset;
+    color : white;
+    font-family: var;
+    }
+    .words {
+    color : black;
+    }
+    .table{
+    backdrop-filter: blur(5px);
+    background: rgba(182, 195, 204, 0.3);
+    }
+    .form {
+    width: 500px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: 0 0 30px 10px ;
+    }
